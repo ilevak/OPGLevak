@@ -1,0 +1,138 @@
+body{
+    background-color: #26292B;
+    font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.slika-pozadina-tamnoCrna{
+    background-image: url("/Slike/orginal-povrce-naslovna2.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.div-naslov-opis{
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.jumbotron .text-white{
+    color: #ffffff;
+
+}
+
+.tamnoZelena { color: #455C2B}
+.svjetloZelena { color: #5E8723 }
+.svjetloSiva{color:#484C44}
+.mesuSiva{color:#4A4D4F}
+.tamnoSiva{color:#323437}
+.backGroungBoja{color:#26292B}
+
+
+
+
+
+/*
+*
+* ==========================================
+* NAVIGACIJA
+* ==========================================
+*
+*/
+
+nav .navbar-ikona{
+    width: 200px;
+}
+
+
+.ikona {
+    display:inline-block;
+    margin-bottom: 0px;
+    vertical-align: bottom;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 20px;   
+    color:  white;
+}
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #26292B;
+    text-decoration: none;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #26292B;
+    text-decoration: none;
+}
+
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #26292B;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #5E8723;
+}
+
+
+.navbar.active .navbar-brand {
+    color: #5E8723;
+}
+
+.navbar-toggler{
+    display: none;
+}
+@media (max-width: 768px) {
+    .divNavigacija{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-toggler-icon{
+        background-image: url("/Slike/menu%20(3).png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 20px;
+        width: 20px;
+        display: block;
+    }
+    .navbar-toggler{
+        right: 0px;
+        align-content: center;
+        padding: 20px;
+        border: none;
+        background-color: transparent;
+        display: inline-block
+    }
+    .navbar {
+        background: #26292B;
+
+    }
+    body{
+        margin-top: 60px;
+    }
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: antiquewhite;
+    }
+
+}
